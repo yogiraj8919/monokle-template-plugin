@@ -1,0 +1,25 @@
+{
+    "name": "Basic Kuberenetes Pod",
+    "id": "com.github.yogiraj8919.plugin.basic-pod-template",
+    "author": "Raj",
+    "version": "1.0.0",
+    "description": "Creates a pod for a specified Image",
+    "repository": "",
+    "type": "vanilla",
+    "forms": [
+        {
+            "name": "Pod Settings",
+            "description": "Specify the settings for your pod",
+            "schema": "form-schema.json",
+            "uiSchema": "form-ui-schema.json"
+        }
+    ],
+    "manifests": [
+        {
+            "filePath": "template.yaml"
+        }
+    ],
+    "resultMessage": "Pod resource created successfully!",
+    "helpurl": "https://github.com/yogiraj8919/monokle-template-plugin.git"
+    
+}

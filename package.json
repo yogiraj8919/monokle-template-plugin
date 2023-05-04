@@ -1,0 +1,15 @@
+{
+    "name": "Template plugins",
+    "description": "Custom template plugins",
+    "version": "1.0.0",
+    "author": "Raj",
+    "repository": "https://github.com/yogiraj8919/monokle-template-plugin.git",
+    "monoklePlugin": {
+        "modules": [
+            {
+                "type": "template",
+                "path": "basic-pod-template" 
+            }
+        ]
+    }
+}
